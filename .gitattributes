@@ -1,0 +1,11 @@
+# Prevent git from modifying line endings in web assets
+*.js binary
+*.wasm binary
+*.dat binary
+*.dll binary
+*.pdb binary
+*.br binary
+*.gz binary
+*.json text eol=lf
+*.css text eol=lf
+*.html text eol=lf
