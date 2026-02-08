@@ -2,6 +2,24 @@
 
 <PageTitle>Home</PageTitle>
 
-<h1>Hello, world!</h1>
+<div class="jacub-container">
+    <img src="JACUB.png" alt="Jacub" class="jacub-image" />
+</div>
 
-Welcome to your new app.
+<style>
+    .jacub-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100vh;
+        overflow: hidden;
+    }
+
+    .jacub-image {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+        max-width: none;
+    }
+</style>

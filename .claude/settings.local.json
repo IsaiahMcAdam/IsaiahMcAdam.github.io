@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(copy \"C:\\\\Users\\\\Isaiah\\\\source\\\\repos\\\\IsaiahMcAdam.github.io\\\\GitHubPage\\\\Assets\\\\JACUB.png\" \"C:\\\\Users\\\\Isaiah\\\\source\\\\repos\\\\IsaiahMcAdam.github.io\\\\GitHubPage\\\\wwwroot\\\\JACUB.png\")",
+      "Bash(dotnet publish:*)",
+      "Bash(powershell -Command:*)",
+      "Bash(git add:*)"
+    ]
+  }
+}
